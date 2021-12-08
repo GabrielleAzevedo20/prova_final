@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'react-native'
 import { Container, Content, Input, Message, SubTitle, MessageEnd } from './styles'
 import { Header } from '../Header'
 import { AntDesign } from '@expo/vector-icons';
@@ -21,6 +22,7 @@ export function Profile() {
                 <Message>
                     Outras opções de identificação
                 </Message>
+                <Text>_____________________________________________</Text>
 
                 <Message>
                 <AntDesign name="creditcard" size={24} color="blue" /> Seu Banco
