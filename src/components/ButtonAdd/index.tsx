@@ -1,11 +1,12 @@
 import React from 'react'
-import { TouchableOpacityProps } from 'react-native'
-import { Container } from './styles'
+
+import { Container, Title } from './styles'
 
 
-export function ButtonAdd({ ...rest}: TouchableOpacityProps) {
+export function ButtonAdd() {
     return (
-        <Container {...rest}>
+        <Container>
+            <Title>Continuar</Title>
         </Container>
     )
 }

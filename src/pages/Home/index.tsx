@@ -8,7 +8,6 @@ export function Home() {
         <Container>
             <Header>
                 <Profile />
-                
             </Header>
 
         </Container>
